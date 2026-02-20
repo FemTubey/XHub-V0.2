@@ -1,0 +1,9 @@
+* { margin: 0; padding: 0; box-sizing: border-box; }
+body { background: #000; color: #fff; font-family: Arial; }
+header { background: #1a1a1a; padding: 1rem; display: flex; justify-content: space-between; }
+.logo { color: #ff006e; font-weight: bold; }
+nav a { color: #fff; margin: 0 1rem; cursor: pointer; }
+.video-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(200px, 1fr)); gap: 1rem; padding: 1rem; }
+.video-card { background: #1a1a1a; padding: 0.5rem; cursor: pointer; }
+.thumb { height: 120px; background: #333; margin-bottom: 0.5rem; display: flex; align-items: center; justify-content: center; }
+.video-modal { position: fixed; top: 50%; left: 50%; transform: translate(-50%, -50%); background: #1a1a1a; padding: 20px; z-index: 1000; }
